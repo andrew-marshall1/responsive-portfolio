@@ -170,26 +170,66 @@ footer {
 }
 
 @media screen and (max-width: 980px) {
-    main {
-        width: 660px;
-        margin-left: 50px;
-    }
-
-    #header_container {
-        width: 90%;
-        margin-left: 50px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    main {
-        width: 548px;
-        margin: auto;
-        margin-bottom: 100px;
-    }
-}
-
-@media screen and (max-width: 640px) {
-    main {
+    .wrapper {
         width: 80%;
     }
+    ul {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    li {
+        height: 10px;
+    }
+    .logo {
+        width: 45%;
+        font-size: 14px;
+    }
+    form input, textarea {
+        width: 80%
+    }
+}
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 70%;
+    }
+    .logo {
+        width: 55%;
+        font-size: 12px;
+    }
+    a {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 14px;
+    }
+    form input, textarea {
+        width: 100%
+    }
+    h1 {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 640px) {
+    li {
+        height: 10px;
+    }
+    .logo {
+        font-size: 10px;
+        height: 70px;
+    }
+    a {
+        font-size: 12px;
+    }
+    .headshot {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .logo {
+        width: 47%;
+        font-size: 8px;
+    }
+    a {
+        font-size: 10px;
+    }
+}
