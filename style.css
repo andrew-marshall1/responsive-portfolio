@@ -168,3 +168,28 @@ footer {
     position: absolute;
     bottom: 0;
 }
+
+@media screen and (max-width: 980px) {
+    main {
+        width: 660px;
+        margin-left: 50px;
+    }
+
+    #header_container {
+        width: 90%;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        width: 548px;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    main {
+        width: 80%;
+    }
